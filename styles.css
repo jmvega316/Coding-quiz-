@@ -1,0 +1,76 @@
+*,::before, *::after {
+    box-sizing: border-box;
+    font-family:  LucidaSans;
+}
+
+:root {
+    --hue-naeutral: 200;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+
+}
+
+
+
+#container {
+    width: 700px;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:0 0 10px 2px ;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.start-btn {
+display: grid;
+width: 50px;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-top: 30px;
+}
+
+.next-btn {
+    display: grid;
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.btn:hover {
+    border-color: black
+}
+
+.hide {
+    display: none;
+} 
+
+.h1{
+    text-align: center;
+}
+
+#countdown{
+    margin: 10px;
+}
+
+
+
+
